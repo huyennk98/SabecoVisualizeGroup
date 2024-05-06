@@ -1,0 +1,5 @@
+{
+  "plugins": ["dist_map", "req_bar_chart", "feasible_heatmap",
+    "constraint_table", "weight_limit_table", "loading_3d_check_table",
+    "timeline_table", "fishbone_table","urgent_table","request_delivery_time_table"]
+}

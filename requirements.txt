@@ -1,0 +1,9 @@
+dash~=2.14.2
+dash-bootstrap-components
+dash-bootstrap-templates
+dash-daq
+dash-extensions
+folium~=0.15.1
+plotly~=5.13.0
+pandas
+pyproj

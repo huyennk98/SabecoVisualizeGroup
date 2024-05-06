@@ -1,0 +1,8 @@
+{
+  "controller_width": 3,
+  "display_width": 9,
+  "plugin_width": 12,
+  "cover_id": "dist-map-cover",
+  "switch_id": "dist-map-switch",
+  "tab": "Input Visualization"
+}

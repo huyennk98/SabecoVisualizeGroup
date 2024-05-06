@@ -1,0 +1,7 @@
+.idea
+logs
+scripts
+test
+venv
+
+*.py[cod]

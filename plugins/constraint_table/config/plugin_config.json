@@ -1,0 +1,8 @@
+{
+  "controller_width": 3,
+  "display_width": 9,
+  "plugin_width": 12,
+  "cover_id": "constraint-table-cover",
+  "switch_id": "constraint-table-switch",
+  "tab": "Output Visualization"
+}

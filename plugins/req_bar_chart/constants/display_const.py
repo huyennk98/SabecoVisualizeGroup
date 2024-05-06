@@ -1,0 +1,3 @@
+# Bar Chart Constants
+BAR_CHART_TICKANGLE = -45
+BAR_WIDTH = 0.75

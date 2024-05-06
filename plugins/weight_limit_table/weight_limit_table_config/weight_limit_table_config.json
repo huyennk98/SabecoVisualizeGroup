@@ -1,0 +1,8 @@
+{
+  "controller_width": 3,
+  "display_width": 9,
+  "plugin_width": 12,
+  "cover_id": "weight-limit-table-cover",
+  "switch_id": "weight-limit-table-switch",
+  "tab": "Output Visualization"
+}

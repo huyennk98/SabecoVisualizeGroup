@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body{*/
+/*    min-height: 100vh;*/
+/*    background: url(oto.jpg) no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+
+.header {
+    background: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.control-panel{
+    padding: 20px;
+    border : 2px solid rgba(255,255,255, .2);
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+}
+
+.nav-tabs .nav-link.active {
+    background-color: navy !important;
+    color: white !important;
+}
+
+.row:has(> div.control-panel) {
+    padding: 0 12px;
+}
+
+#chart-type {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    padding : 0 10px;
+}
+
+#chart-type label{
+    color: #fff;
+    margin: 10px 150px 10px 0;
+}
+
+#chart-type label span:nth-child(3){
+    position: relative;
+    left: 50px;
+    top: -25px;
+}
+
+.control-panel label input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.control-panel label {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    width: 44px;
+    height: 24px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255, .2);
+    -webkit-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+.slider span{
+    margin-left: 50px;
+    color : #fff;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: rgba(255,255,255, .8);
+    -webkit-transition: .4s;
+    -ms-transition: .4s;
+    transition: .4s;
+}
+
+#chart-type input:checked + .slider {
+    background-color: rgba(54,255,255, .8);
+}
+
+#chart-type input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+#chart-type input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+.slider.round {
+    border-radius: 24px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.chart-box {
+    margin: 10px 0 0 0 ;
+    border : 2px solid rgba(255,255,255, .2);
+    border-radius: 5px;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+
+}
+
+.chart-box h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.bg-change{
+    background: rgba(0,0,0, .8) !important;
+    padding: 0 20px !important;
+}
+
+.display-off{
+    display: none !important;
+}
+
+.chart-type-stick{
+    flex-wrap: nowrap !important;
+    overflow-y: hidden ;
+    overflow-x: scroll;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 30;
+}
+
+
+.chart{
+    padding-top: 100px;
+}
+
+.sticky + .chart{
+    z-index: 20;
+}
+
+.tooltip-inner {
+    text-align: left !important;
+    white-space: pre-line !important;
+    max-width: 200px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:rgba(255,255,255, .8) ;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(33,33,33, .6);
+    border-radius: 5px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(33,33,33, .8);
+}
