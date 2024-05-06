@@ -73,7 +73,3 @@ Chương trình tạo ra 1 Dashboard, chứa các biểu đồ mô tả (& trự
 Dự án làm nền tảng để sau này merge vào VRP Dashboard chính thức (Được viết theo kiến trúc HMVC và hướng plugin-oriented-programming) <br>
 [Xem chi tiết định hướng dự án ở đây](docs/future_work.md)
 
-## Thông Tin Liên Hệ
-Tên Chủ Dự Án: Nguyễn Trần Minh Châu <br>
-Email Liên Hệ: chaunguyen1993vn@gmail.com <br>
-Link Dự Án (Chế độ Private): https://github.com/chaunguyen1993ece/vrp_dashboard_visualization (Nhánh main_product)
