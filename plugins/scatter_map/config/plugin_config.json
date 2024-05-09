@@ -1,0 +1,8 @@
+{
+  "controller_width": 3,
+  "display_width": 9,
+  "plugin_width": 12,
+  "cover_id": "scatter-map-cover",
+  "switch_id": "scatter-map-switch",
+  "tab": "Input Visualization"
+}
