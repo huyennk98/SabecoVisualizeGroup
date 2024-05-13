@@ -12,7 +12,7 @@ def register_scatter_map_callbacks(self, app):
         State('display-scatter-map', 'figure')]
     )
     def update_scatter_map(switch, figure):
-        fig = go.Figure(data=figure['data'], layout=figure['layout'])
+
 
         if self.model and switch:
             # Create visualization
